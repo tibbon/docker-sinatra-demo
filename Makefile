@@ -4,4 +4,4 @@ server:
 
 shell:
 	docker build . -t sinatra-demo
-	docker exec -it sinatra-demo /bin/bash
+	docker run -it sinatra-demo:latest /bin/sh
